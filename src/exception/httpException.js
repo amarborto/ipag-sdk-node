@@ -25,6 +25,10 @@ class HttpException extends BaseException {
   getErrors() {
     return this.errors;
   }
+
+  getCode() {
+    return this.code;
+  }
 }
 
 module.exports = HttpException;
