@@ -1,4 +1,4 @@
-const StoneCredentials = require('../../../src/support/credentials/paymentMethods/stoneCredentials');
+const StoneCredentials = require('../../../../src/support/credentials/paymentMethods/stoneCredentials');
 
 describe('StoneCredentials', () => {
     it('should create a stone credentials object with the constructor successfully', () => {

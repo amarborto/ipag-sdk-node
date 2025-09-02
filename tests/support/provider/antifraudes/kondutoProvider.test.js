@@ -1,5 +1,5 @@
-const KondutoProvider = require('../../../src/support/provider/antifraudes/kondutoProvider');
-const KondutoCredentials = require('../../../src/support/credentials/antifraudes/kondutoCredentials');
+const KondutoProvider = require('../../../../src/support/provider/antifraudes/kondutoProvider');
+const KondutoCredentials = require('../../../../src/support/credentials/antifraudes/kondutoCredentials');
 
 describe('KondutoProvider', () => {
     it('should create a konduto provider object with the constructor successfully', () => {

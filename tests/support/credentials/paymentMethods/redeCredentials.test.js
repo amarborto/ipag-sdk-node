@@ -1,4 +1,4 @@
-const RedeCredentials = require('../../../src/support/credentials/paymentMethods/redeCredentials');
+const RedeCredentials = require('../../../../src/support/credentials/paymentMethods/redeCredentials');
 
 describe('RedeCredentials', () => {
     it('should create a rede credentials object with the constructor successfully', () => {

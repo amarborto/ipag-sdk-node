@@ -1,4 +1,4 @@
-const RedShieldCredentials = require('../../../src/support/credentials/antifraudes/redShieldCredentials');
+const RedShieldCredentials = require('../../../../src/support/credentials/antifraudes/redShieldCredentials');
 
 describe('RedShieldCredentials', () => {
     it('should create a red shield credentials object with the constructor successfully', () => {

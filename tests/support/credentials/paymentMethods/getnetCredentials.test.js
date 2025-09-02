@@ -1,4 +1,4 @@
-const GetnetCredentials = require('../../../src/support/credentials/paymentMethods/getnetCredentials');
+const GetnetCredentials = require('../../../../src/support/credentials/paymentMethods/getnetCredentials');
 
 describe('GetnetCredentials', () => {
     it('should create a getnet credentials object with the constructor successfully', () => {

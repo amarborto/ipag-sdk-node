@@ -1,4 +1,4 @@
-const ZoopCredentials = require('../../../src/support/credentials/paymentMethods/zoopCredentials');
+const ZoopCredentials = require('../../../../src/support/credentials/paymentMethods/zoopCredentials');
 
 describe('ZoopCredentials', () => {
     it('should create a zoop credentials object with the constructor successfully', () => {

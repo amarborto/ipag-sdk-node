@@ -1,4 +1,4 @@
-const CieloCredentials = require('../../../src/support/credentials/paymentMethods/cieloCredentials');
+const CieloCredentials = require('../../../../src/support/credentials/paymentMethods/cieloCredentials');
 
 describe('CieloCredentials', () => {
     it('should create a cielo credentials object with the constructor successfully', () => {

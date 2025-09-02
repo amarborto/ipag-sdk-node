@@ -1,4 +1,4 @@
-const ArrayUtil = require('../../util/arrayUtil');
+const ArrayUtil = require('../util/arrayUtil');
 
 class Response {
   constructor(body, headers, statusCode) {

@@ -1,4 +1,4 @@
-const Model = require('../../../../model/model');
+const Model = require('../../../model/model');
 const KondutoCredentials = require('../../credentials/antifraudes/kondutoCredentials');
 
 class KondutoProvider extends Model {

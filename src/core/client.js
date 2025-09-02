@@ -25,7 +25,7 @@ class Client extends CompositePath {
       return body;
     }
 
-    if (typeof body.jsonSerialize === 'function') {
+    if (body && typeof body.jsonSerialize === 'function') {
       body = body.jsonSerialize();
     }
 

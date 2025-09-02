@@ -22,6 +22,7 @@ const Payment = require('./payment');
 const PaymentAntifraud = require('./paymentAntifraud');
 const PaymentCard = require('./paymentCard');
 const PaymentLink = require('./paymentLink');
+const PaymentMethod = require('./paymentMethod');
 const PaymentSplitRules = require('./paymentSplitRules');
 const PaymentSubscription = require('./paymentSubscription');
 const PaymentTransaction = require('./paymentTransaction');
@@ -62,6 +63,7 @@ module.exports = {
   PaymentAntifraud,
   PaymentCard,
   PaymentLink,
+  PaymentMethod,
   PaymentSplitRules,
   PaymentSubscription,
   PaymentTransaction,

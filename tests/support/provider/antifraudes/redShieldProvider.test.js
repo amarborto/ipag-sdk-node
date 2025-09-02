@@ -1,5 +1,5 @@
-const RedShieldProvider = require('../../../src/support/provider/antifraudes/redShieldProvider');
-const RedShieldCredentials = require('../../../src/support/credentials/antifraudes/redShieldCredentials');
+const RedShieldProvider = require('../../../../src/support/provider/antifraudes/redShieldProvider');
+const RedShieldCredentials = require('../../../../src/support/credentials/antifraudes/redShieldCredentials');
 
 describe('RedShieldProvider', () => {
     it('should create a red shield provider object with the constructor successfully', () => {

@@ -1,4 +1,4 @@
-const KondutoCredentials = require('../../../src/support/credentials/antifraudes/kondutoCredentials');
+const KondutoCredentials = require('../../../../src/support/credentials/antifraudes/kondutoCredentials');
 
 describe('KondutoCredentials', () => {
     it('should create a konduto credentials object with the constructor successfully', () => {

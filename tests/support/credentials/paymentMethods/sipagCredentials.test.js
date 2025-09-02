@@ -1,4 +1,4 @@
-const SipagCredentials = require('../../../src/support/credentials/paymentMethods/sipagCredentials');
+const SipagCredentials = require('../../../../src/support/credentials/paymentMethods/sipagCredentials');
 
 describe('SipagCredentials', () => {
     it('should create a sipag credentials object with the constructor successfully', () => {

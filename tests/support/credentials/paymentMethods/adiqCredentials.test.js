@@ -1,4 +1,4 @@
-const AdiqCredentials = require('../../../src/support/credentials/paymentMethods/adiqCredentials');
+const AdiqCredentials = require('../../../../src/support/credentials/paymentMethods/adiqCredentials');
 
 describe('AdiqCredentials', () => {
     it('should create an adiq credentials object with the constructor successfully', () => {

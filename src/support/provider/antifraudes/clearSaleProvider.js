@@ -1,4 +1,4 @@
-const Model = require('../../../../model/model');
+const Model = require('../../../model/model');
 const ClearSaleCredentials = require('../../credentials/antifraudes/clearSaleCredentials');
 
 class ClearSaleProvider extends Model {

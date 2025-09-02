@@ -1,4 +1,4 @@
-const GlobalPaymentsCredentials = require('../../../src/support/credentials/paymentMethods/globalPaymentsCredentials');
+const GlobalPaymentsCredentials = require('../../../../src/support/credentials/paymentMethods/globalPaymentsCredentials');
 
 describe('GlobalPaymentsCredentials', () => {
     it('should create a global payments credentials object with the constructor successfully', () => {

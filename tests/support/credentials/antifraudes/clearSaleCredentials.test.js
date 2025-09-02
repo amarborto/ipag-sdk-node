@@ -1,4 +1,4 @@
-const ClearSaleCredentials = require('../../../src/support/credentials/antifraudes/clearSaleCredentials');
+const ClearSaleCredentials = require('../../../../src/support/credentials/antifraudes/clearSaleCredentials');
 
 describe('ClearSaleCredentials', () => {
     it('should create a clear sale credentials object with the constructor successfully', () => {

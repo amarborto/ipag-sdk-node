@@ -1,4 +1,4 @@
-const Model = require('../../../../model');
+const Model = require('../../../model/model');
 const RedShieldCredentials = require('../../credentials/antifraudes/redShieldCredentials');
 
 class RedShieldProvider extends Model {

@@ -1,4 +1,4 @@
-const Model = require('../../../../model/model');
+const Model = require('../../../model/model');
 
 class CieloCredentials extends Model {}
 

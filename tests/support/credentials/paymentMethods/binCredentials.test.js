@@ -1,4 +1,4 @@
-const BinCredentials = require('../../../src/support/credentials/paymentMethods/binCredentials');
+const BinCredentials = require('../../../../src/support/credentials/paymentMethods/binCredentials');
 
 describe('BinCredentials', () => {
     it('should create a bin credentials object with the constructor successfully', () => {
