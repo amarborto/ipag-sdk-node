@@ -1,6 +1,6 @@
 {
   "name": "ipag-sdk-node",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "SDK para integração com a API da iPag em Node.js",
   "main": "index.js",
   "scripts": {
