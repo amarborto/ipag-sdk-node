@@ -22,7 +22,8 @@ class Response {
         this.data = null;
     }
 
-    if (this.serializer) {
+    // Only use serializer if raw data is a string (not already parsed)
+    if (this.serializer && typeof this.raw === 'string') {
         this.data = this.serializer.unserialize(this.raw);
     }
 
